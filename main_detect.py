@@ -1,7 +1,4 @@
-'''
-CODER ZERO
-connect with me at: https://www.youtube.com/channel/UCKipQAvBc7CWZaPib4y8Ajg
-'''
+
 ### importing required libraries
 import torch
 import cv2
@@ -65,7 +62,7 @@ def main(img_path=None, vid_path=None,vid_out = None):
     print(f"[INFO] Loading model... ")
     ## loading the custom trained model
     # model =  torch.hub.load('ultralytics/yolov5', 'custom', path='last.pt',force_reload=True) ## if you want to download the git repo and then run the detection
-    model =  torch.hub.load('yolov5/', 'custom', source ='local', path='results/weights/last.pt',force_reload=True) ### The repo is stored locally
+    model =  torch.hub.load('yolov5/', 'custom', source ='local', path='result_7/weights/last.pt',force_reload=True) ### The repo is stored locally
     
     classes = model.names ### class names in string format
 
@@ -148,7 +145,7 @@ def main(img_path=None, vid_path=None,vid_out = None):
 
 
 # main(vid_path="facemask.mp4",vid_out="facemask_result.mp4") ### for custom video
-main(vid_path=0,vid_out="webcam_facemask_result.mp4") #### for webcam
+main(vid_path=0,vid_out="webcam_wbpen_result.mp4") #### for webcam
 
 #main(img_path="infer_images/2022-09-21-200755.jpg") ## for image
 
