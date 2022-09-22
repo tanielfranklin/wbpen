@@ -1,4 +1,17 @@
-labels_my-project-name_2022-09-21-04-24-10.zip
-main_detect.py
 detected 2022-09-21-164017.mp4
-.gitignore
+old git/.github/.dockerignore
+old git/.github/.gitattributes
+old git/.github/CODE_OF_CONDUCT.md
+old git/.github/dependabot.yml
+old git/.github/PULL_REQUEST_TEMPLATE.md
+old git/.github/README_cn.md
+old git/.github/SECURITY.md
+old git/.github/ISSUE_TEMPLATE/bug-report.yml
+old git/.github/ISSUE_TEMPLATE/config.yml
+old git/.github/ISSUE_TEMPLATE/feature-request.yml
+old git/.github/ISSUE_TEMPLATE/question.yml
+old git/.github/workflows/ci-testing.yml
+old git/.github/workflows/codeql-analysis.yml
+old git/.github/workflows/docker.yml
+old git/.github/workflows/greetings.yml
+old git/.github/workflows/stale.yml
